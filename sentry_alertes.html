@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='refresh' content='300'>
+    <title>Sentry - Alertes</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 16px;
+        }
+
+        h1 {
+            font-size: 1.3rem;
+            color: #f97316;
+            margin-bottom: 4px;
+        }
+
+        .mise-a-jour {
+            font-size: 0.75rem;
+            color: #64748b;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #ef4444;
+            color: white;
+            border-radius: 999px;
+            padding: 2px 10px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+
+        thead th {
+            background: #1e293b;
+            color: #94a3b8;
+            text-align: left;
+            padding: 10px 8px;
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #1e293b;
+        }
+
+        tbody tr:hover {
+            background: #1e293b;
+        }
+
+        tbody td {
+            padding: 10px 8px;
+            vertical-align: top;
+        }
+
+        tbody td:first-child {
+            color: #fbbf24;
+            font-weight: 500;
+        }
+
+        tbody td:nth-child(2) {
+            color: #38bdf8;
+            font-family: monospace;
+        }
+
+        tbody td:nth-child(3) {
+            color: #94a3b8;
+            font-size: 0.78rem;
+        }
+
+        @media (max-width: 480px) {
+            table, thead, tbody, th, td, tr { display: block; }
+            thead { display: none; }
+            tbody tr {
+                background: #1e293b;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+            tbody td { padding: 4px 0; border: none; }
+            tbody td:first-child { font-size: 1rem; margin-bottom: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>⚠️ Sentry Alertes</h1>
+    <div class='mise-a-jour'>Mise à jour : 2026-04-30 16:00:22</div>
+    <div class='badge'>1 alerte(s) active(s)</div>
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Node</th>
+                <th>ScanTime</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                                <tr>
+                                    <td>Kantech - KT 400 Barrière Parc Price</td>
+                                    <td>10.102.70.10</td>
+                                    <td>2025-11-20 10:33:53</td>
+                                </tr>
+        </tbody>
+    </table>
+</body>
+</html>
